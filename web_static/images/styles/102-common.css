@@ -1,0 +1,12 @@
+/* styles/102-common.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto; /* Center horizontally and provide margin top and bottom */
+}
