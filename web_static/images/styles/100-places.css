@@ -1,0 +1,40 @@
+/* styles/100-places.css */
+
+/* Global style */
+.places {
+    margin-top: 40px;
+}
+
+.places h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.places .amenities,
+.places .reviews {
+    margin-top: 40px;
+}
+
+.places .amenities ul,
+.places .reviews ul {
+    list-style: none;
+    padding: 0;
+}
+
+.places .amenities ul li,
+.places .reviews ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.places .amenities ul li i,
+.places .reviews ul li h3 {
+    margin-right: 10px;
+}
+
+.places .amenities ul li p,
+.places .reviews ul li p {
+    margin: 0;
+    font-size: 12px;
+}
