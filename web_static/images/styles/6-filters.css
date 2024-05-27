@@ -1,0 +1,46 @@
+/* Filters style */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.locations,
+.amenities {
+    position: relative; /* Make position relative to enable absolute positioning for dropdown */
+}
+
+.popover {
+    position: absolute;
+    top: 100%; /* Position dropdown below the filter div */
+    left: 0;
+    display: none; /* Hide dropdown by default */
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 10px;
+    list-style-type: none; /* Remove bullet points */
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: block; /* Display dropdown when the mouse is on the filter div */
+}
+
+.locations ul {
+    padding: 0;
+}
+
+.locations ul li h2 {
+    font-size: 16px;
+    margin-top: 10px; /* Add space above state name */
+    margin-bottom: 5px; /* Add space below state name */
+}
+
+.locations ul li:not(:first-child) {
+    margin-top: 5px; /* Add space between cities */
+}
+
+.amenities ul {
+    margin-top: 5px; /* Add space between items */
+}
