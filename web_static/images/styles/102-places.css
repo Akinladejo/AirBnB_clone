@@ -1,0 +1,35 @@
+/* styles/102-places.css */
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute articles evenly */
+}
+
+.places article {
+    flex: 0 0 calc(50% - 20px); /* Two articles per row with space between */
+    margin-bottom: 20px; /* Add space between articles */
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+}
+
+.places h1 {
+    margin-bottom: 20px; /* Add space below Places title */
+}
+
+/* Adjust article header styles for small screens */
+.article_places_header {
+    display: flex;
+    justify-content: space-between; /* Separate title and price */
+    align-items: center; /* Center vertically */
+}
+
+/* Adjust description styles for small screens */
+.description {
+    margin-top: 20px; /* Add space between description and amenities */
+}
+
+/* Adjust review styles for small screens */
+.reviews {
+    margin-top: 20px; /* Add space between reviews and amenities */
+}
