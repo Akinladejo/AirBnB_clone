@@ -1,0 +1,52 @@
+/* styles/101-places.css */
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.places article {
+    flex: 1 1 300px; /* Flex-grow, Flex-shrink, Flex-basis */
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+}
+
+.places h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.places .amenities,
+.places .reviews {
+    margin-top: 40px;
+}
+
+.places .amenities ul,
+.places .reviews ul {
+    list-style: none;
+    padding: 0;
+}
+
+.places .amenities ul li,
+.places .reviews ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.places .amenities ul li .places_amenities_pet_friendly,
+.places .amenities ul li .places_amenities_tv,
+.places .amenities ul li .places_amenities_wifi {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc; /* Placeholder background color */
+    /* Add background images for respective icons */
+}
+
+.places .amenities ul li p,
+.places .reviews ul li p {
+    margin: 0;
+    font-size: 12px;
+}
