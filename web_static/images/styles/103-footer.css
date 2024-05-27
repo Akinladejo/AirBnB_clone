@@ -1,0 +1,21 @@
+/* styles/103-footer.css */
+
+footer {
+    background-color: #333; /* Dark background color for footer */
+    color: #fff; /* White text color for footer */
+    padding: 20px 0; /* Add padding top and bottom */
+    text-align: center; /* Center-align text */
+}
+
+footer p {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+
+footer a {
+    color: #fff; /* White color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
